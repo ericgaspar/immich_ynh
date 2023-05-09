@@ -60,7 +60,7 @@ ram.runtime = "50M"
 
         [resources.sources.main]
         url = "https://github.com/immich-app/immich/archive/refs/tags/v1.55.0.tar.gz"
-        sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+        sha256 = "71dd96d50bd9df6f0c52cd31ec1a512243322df8d02a654db8fe60a5387fce64"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -73,7 +73,6 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
-    # This will pick a random port for reverse-proxying and store it as the $port setting
 
     [resources.apt]
     packages = "deb1, deb2, php8.0-foo, php8.0-bar"
